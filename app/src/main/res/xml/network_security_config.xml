@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">44.242.125.65</domain>
+        <domain includeSubdomains="true">34.217.126.209</domain>
+        <domain includeSubdomains="true">34.213.79.205</domain>
+        <domain includeSubdomains="true">www.flirtyzapp.com</domain>
+
+    </domain-config>
+</network-security-config>

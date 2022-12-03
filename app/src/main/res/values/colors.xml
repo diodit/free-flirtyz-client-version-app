@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdcb05</color>
+    <color name="colorPrimaryDark">#fdcb05</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <color name="candidate_normal">#FF000000</color>
+    <color name="candidate_recommended">#FFE35900</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="candidate_background">#bbffffff</color>
+    <color name="white" >#ffffff</color>
+    <color name="hollywood_cerise" >#eb068f</color>
+    <color name="paid_primary" >#e01650</color>
+    <color name="mine_shaft" >#303030</color>
+    <color name="gallery" >#eaeaea</color>
+    <color name="supernova" >#fdcb05</color>
+    <color name="bright_sun" >#F9D443</color>
+    <color name="tundra" >#454545</color>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ritssupreme.phlurtyz002">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/flirtyzlauncher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+        android:usesCleartextTraffic="true">
+        <!-- Activities -->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainModActivity"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".activity.WelcomeActivity" />
+        <activity
+            android:name=".activity.FavoriteActivity"
+            android:label="@string/title_activity_favorite" />
+        <activity
+            android:name=".activity.SpecialsActivity"
+            android:label="@string/title_activity_special" />
+        <activity
+            android:name=".activity.RecentActivity"
+            android:label="@string/title_activity_recent" />
+        <activity
+            android:name=".activity.RecentModActivity"
+            android:label="@string/title_activity_recent" />
+        <activity
+            android:name=".activity.SuggestionActivity"
+            android:label="@string/title_activity_suggestion" />
+        <activity
+            android:name=".activity.DownloadActivity"
+            android:label="@string/title_activity_download" /> <!-- Broadcast Receiver -->
+        <receiver
+            android:name="com.ritssupreme.phlurty002.broadcastReceiver.NetworkChangeReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver> <!-- Content Provide -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ritssupreme.phlurtyz002.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+    </application>
+
+</manifest>

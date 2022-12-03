@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Flirtyz</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_suggest">Suggest</string>
+    <string name="one">Category</string>
+    <string name="two">Favorite</string>
+    <string name="three">Recent</string>
+    <string name="title_activity_main">Flirtyz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile_name">Flirtyz </string>
+    <string name="profile_email">support@flirtyz.com</string>
+
+    <string name="select_version">Please select version</string>
+    <string name="free_version"><u>Enter Flirtyz</u></string>
+    <string name="unlocked_version"><u>Unlocked</u></string>
+    <string name="flirtyz_emojicons">Flirtyz</string>
+
+    <string name="welcome_flirtyz_naughty">Flirtyz Naughty</string>
+    <string name="welcome_flirtyz_uncensored">Flirtyz Uncensored</string>
+    <string name="welcome_the_free_version">The Free Version</string>
+    <string name="welcome_the_xxx_version">Version</string>
+    <string name="welcome_a_humble_request">A humble request: </string>
+    <string name="welcome_a_humble_request_description">Please don’t repurpose this PSD or its contents as your own. If you like it and use it, share about it. Most importantly, use it to pitch, design and build amazing application. If you would like to thank me, Please give us one share. </string>
+    <string name="welcome_a_humble_request_description_free"> Welcome to Flirtyz, the premiere emoji mobile app that’s designed to help you share your emotions and have fun with the people closest to you. Our Mission is to redefine emojis as we know them, transforming them into Flirtyz, a pioneer in the entertainment world. </string>
+    <string name="welcome_a_humble_request_description_uncensored">Thank you for your interest in Flirtyz uncensored content. A rude, crude, crass, brass tacks type of experience offering trending, controversial and offensive fun that other apps wish they were. Welcome to the party my friends. </string>
+    <string name="welcome_a_humble_request_description_free2"> Tired of the same boring emojis? Flirtyz provides funny,
+entertaining, never before seen, trending, controversial and custom emojis inspired by real life
+people, circumstances, events and mishaps. Flirtyz is the premier emoji mobile app
+that’s designed to help yo share your emotions and have fun with the people closest to you.
+Our mission is to re-define emojis as we know them. Transforming emojis into Flirtyz, a pioneer
+in the entertainment world.
+ </string>
+
+    <string name="welcome_a_humble_request_description_free3"> The most controversial emojis in the world? Flirtyz are providing a way for friends to express themselves creatively
+with humor and entertainment. Flirtyz gives people a visual platform to voice their opinions
+saying a word. Here’s to free expression!
+ </string>
+
+
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_favorite">Favorite</string>
+    <string name="title_activity_special">Special</string>
+    <string name="title_activity_recent">Recent</string>
+    <string name="title_activity_download">Download</string>
+    <string name="title_activity_installation">Installation</string>
+    <string name="sugesstion_description">Have and idea for an awsome emoji? Tell us your thoughts below and have a chance to see your emoji added to our Flirtyz Family</string>
+    <string name="suggestion_idea_box">Idea Box</string>
+    <string name="suggestion_send">SEND</string>
+    <string name="suggetst_flirtyz">Suggest a Flirtyz</string>
+    <string name="send_to">Share Emoji to</string>
+    <string name="remove">Remove</string>
+    <string name="download_download">Make Payment</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_description">Do you want to download this application?It does not require any special access</string>
+    <string name="download_descriptionnew">How to purchase the Paid Uncensored Flirtyz App. In order to recieve the Paid flirtyz App, please follow the direction below. </string>
+    <string name="download_descriptiondirection">\n 1. Click on the Make Payment Button.\n\n 2. Fill out the credit card form.\n\n 3. You will recieve a text message to your mobile phone with a link to receive the Uncensored Flirtyz App.  </string>
+</resources>
+
